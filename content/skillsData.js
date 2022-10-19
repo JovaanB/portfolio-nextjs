@@ -35,6 +35,11 @@ module.exports = [
     pinned: true,
   },
   {
+    name: "Node.js",
+    level: 50,
+    pinned: true,
+  },
+  {
     name: "Tailwind CSS",
     level: 100,
     pinned: true,
@@ -50,11 +55,6 @@ module.exports = [
     pinned: false,
   },
   {
-    name: "Python",
-    level: 85,
-    pinned: true,
-  },
-  {
     name: "MySQL",
     level: 85,
     pinned: true,
@@ -65,11 +65,6 @@ module.exports = [
     pinned: true,
   },
   {
-    name: "Node.js",
-    level: 50,
-    pinned: false,
-  },
-  {
     name: "Firebase",
     level: 60,
     pinned: true,
@@ -77,16 +72,6 @@ module.exports = [
   {
     name: "Data Structure",
     level: 60,
-    pinned: false,
-  },
-  {
-    name: "MS Office",
-    level: 70,
-    pinned: false,
-  },
-  {
-    name: "Figma",
-    level: 70,
     pinned: false,
   },
 ];

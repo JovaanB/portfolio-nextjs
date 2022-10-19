@@ -2,7 +2,6 @@ import { popUpFromBottomForText } from "../../content/FramerMotionVariants";
 import projectData from "../../content/projectData";
 import { HomeHeading } from "../../pages";
 import AnimatedDiv from "../FramerMotion/AnimatedDiv";
-import Image from "next/image";
 import AnimatedHeading from "../FramerMotion/AnimatedHeading";
 import AnimatedText from "../FramerMotion/AnimatedText";
 import ExploreMoreButton from "../Buttons/ExploreMoreButton";
@@ -21,15 +20,12 @@ export default function ProjectSection() {
               onClick={() => window.open(project.githubURL)}
             >
               <AnimatedDiv variants={popUpFromBottomForText}>
-                <Image
+                <img
                   className="rounded-xl mb-2"
                   width={360}
                   height={200}
                   src={project.coverURL}
                   alt={project.name}
-                  layout="responsive"
-                  objectFit="contain"
-                  quality={50}
                 />
               </AnimatedDiv>
               <AnimatedHeading

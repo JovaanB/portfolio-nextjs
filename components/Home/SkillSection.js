@@ -11,6 +11,7 @@ import {
   SiGit,
   SiMysql,
   SiFirebase,
+  SiNodedotjs,
 } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { useDarkMode } from "@context/darkModeContext";
@@ -60,8 +61,8 @@ export default function SkillSection({ skills }) {
 function chooseIcon(title) {
   let Icon;
   switch (title) {
-    case "python":
-      Icon = SiPython;
+    case "node.js":
+      Icon = SiNodedotjs;
       break;
     case "javascript":
       Icon = SiJavascript;

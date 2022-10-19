@@ -2,7 +2,6 @@ import certificatesData from "../../content/certificatesData";
 import { popUpFromBottomForText } from "../../content/FramerMotionVariants";
 import { HomeHeading } from "../../pages";
 import AnimatedDiv from "../FramerMotion/AnimatedDiv";
-import Image from "next/image";
 import { MdVerified } from "react-icons/md";
 import AnimatedText from "../FramerMotion/AnimatedText";
 import AnimatedButton from "../FramerMotion/AnimatedButton";
@@ -35,16 +34,11 @@ export default function CertificationSection() {
                   variants={popUpFromBottomForText}
                   className="flex relative"
                 >
-                  <Image
+                  <img
                     width={40}
                     height={40}
                     src={certificate.issuedBy.orgLogo}
                     alt={certificate.issuedBy.orgName}
-                    quality={50}
-                    objectFit="contain"
-                    layout="fixed"
-                    placeholder="blur"
-                    blurDataURL={certificate.issuedBy.orgLogo}
                   />
                 </AnimatedDiv>
                 <AnimatedText

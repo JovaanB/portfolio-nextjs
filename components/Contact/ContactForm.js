@@ -12,7 +12,7 @@ import Ripples from "react-ripples";
 
 // initial State of the form
 const initialFormState = {
-  to_name: "Jatin Sharma",
+  to_name: "Jovan Bienvenu",
   first_name: "",
   last_name: "",
   email: "",
@@ -75,7 +75,6 @@ export default function Form() {
         onSubmit={sendEmail}
         onKeyDown={submitFormOnEnter}
       >
-        {/* First Name And Last Name */}
         <div className="w-full grid grid-cols-2 gap-6">
           <motion.div
             variants={mobileNavItemSideways}

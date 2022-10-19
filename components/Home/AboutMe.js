@@ -12,7 +12,7 @@ export default function AboutMe() {
         className="text-slate-500 dark:text-slate-400 font-medium"
         variants={popUpFromBottomForText}
       >
-        Hi, welcome! I'm Jatin Sharma and I'm a self-taught React Developer 👋
+        Hi, welcome! I'm Jovan Bienvenu and I'm a self-taught React Developer 👋
         as I am currently perusing my Bachelor Degree in Computer Science. I
         wanted to learn the web development so desperately in my High School,
         then as the time passed I've managed to get all the resources i need to

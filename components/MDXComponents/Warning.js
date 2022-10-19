@@ -4,6 +4,7 @@ export default function Warning({ text, title, children }) {
       <div className="text-2xl font-medium leading-tight mb-2 flex items-center gap-2 text-yellow-700 dark:text-yellow-500">
         <svg
           aria-hidden="true"
+          // eslint-disable-next-line
           dataicon="exclamation-triangle"
           className="w-6 h-6 mr-2 fill-current"
           role="img"

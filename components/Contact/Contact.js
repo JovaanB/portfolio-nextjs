@@ -8,7 +8,6 @@ import ContactForm from "./ContactForm";
 export default function Contact() {
   return (
     <div id="contact" className="dark:bg-darkPrimary !relative">
-      {/* Get in touch top section */}
       <section className="w-full-width text-center pt-6 dark:bg-darkPrimary dark:text-white">
         <AnimatedHeading
           variants={popUpFromBottomForText}
@@ -26,9 +25,7 @@ export default function Contact() {
         </AnimatedText>
       </section>
 
-      {/* Wrapper Container */}
       <section className="flex flex-col lg:flex-row w-full mx-auto px-5 dark:bg-darkPrimary dark:text-white lg:pb-10">
-        {/* Left Contact form section */}
         <div className="w-full mx-auto mt-10">
           <AnimatedHeading
             variants={popUpFromBottomForText}

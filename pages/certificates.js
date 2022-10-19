@@ -1,7 +1,6 @@
 import MetaData from "@components/MetaData";
 import { popUpFromBottomForText } from "@content/FramerMotionVariants";
 import certificatesData from "@content/certificatesData";
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import AnimatedDiv from "@components/FramerMotion/AnimatedDiv";
@@ -34,16 +33,11 @@ export default function Certificates() {
               >
                 <div className="flex items-center gap-3">
                   <div className="relative flex items-center justify-center">
-                    <Image
+                    <img
                       width={40}
                       height={40}
                       src={cer.issuedBy.orgLogo}
                       alt={cer.issuedBy.orgName}
-                      quality={50}
-                      objectFit="contain"
-                      layout="fixed"
-                      placeholder="blur"
-                      blurDataURL={cer.issuedBy.orgLogo}
                     />
                   </div>
                   <div className="flex flex-col ">

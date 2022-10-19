@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function figcaption({ src, caption, alt }) {
   if (caption !== undefined) {
     return (

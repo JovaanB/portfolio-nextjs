@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import socialMedia from "../content/socialMedia";
 import { FadeContainer, popUp } from "../content/FramerMotionVariants";
 import { navigationRoutes } from "../utils/utils";
@@ -120,15 +119,11 @@ function WhenPlaying({ song }) {
         >
           <div className=" flex items-center gap-2">
             <div className="w-10 h-10">
-              <Image
+              <img
                 alt={song.title}
                 src={song.albumImageUrl}
                 width={40}
                 height={40}
-                layout="fixed"
-                quality={50}
-                placeholder="blur"
-                blurDataURL={song.albumImageUrl}
               />
             </div>
             <div className="flex flex-col sm:flex-row sm:items-center sm:gap-3">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function EmbedBlog({ img, text, url }) {
@@ -11,12 +10,11 @@ export default function EmbedBlog({ img, text, url }) {
         rel="noopener noreferrer"
       >
         <div className="flex">
-          <Image
+          <img
             src={img}
             width={100}
             height={55}
             placeholder="blur"
-            blurDataURL={img}
             alt="blog image"
           />
         </div>

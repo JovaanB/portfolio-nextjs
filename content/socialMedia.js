@@ -6,11 +6,6 @@ import { SiCodepen } from "react-icons/si";
 
 export default [
   {
-    title: "Twitter",
-    Icon: AiOutlineTwitter,
-    url: "https://twitter.com/intent/follow?screen_name=j471n_",
-  },
-  {
     title: "LinkedIn",
     Icon: BsLinkedin,
     url: "https://www.linkedin.com/in/j471n/",
@@ -31,11 +26,6 @@ export default [
     url: "https://dev.to/j471n",
   },
   {
-    title: "Codepen",
-    Icon: SiCodepen,
-    url: "https://codepen.io/j471n",
-  },
-  {
     title: "Facebook",
     Icon: BsFacebook,
     url: "https://www.facebook.com/ja7in/",
@@ -43,6 +33,6 @@ export default [
   {
     title: "Mail",
     Icon: HiMail,
-    url: "mailto:jatinsharma8669@gmail.com",
+    url: "mailto:bienvenujovan@gmail.com",
   },
 ];

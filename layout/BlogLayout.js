@@ -117,8 +117,8 @@ export default function BlogLayout({ post, children }) {
         <div className="flex items-center !w-full text-gray-700 dark:text-gray-300">
           <div className="flex items-center gap-2 w-full">
             <div className="relative grid">
-              <Image
-                alt="Jatin Sharma"
+              <img
+                alt="Jovan Bienvenu"
                 height={30}
                 width={30}
                 src={AvatarImage}
@@ -128,7 +128,7 @@ export default function BlogLayout({ post, children }) {
             </div>
             <div className="flex flex-col sm:flex-row sm:justify-between w-full">
               <p className="text-sm  flex items-center gap-2 font-medium !my-0">
-                <span>Jatin Sharma</span>
+                <span>Jovan Bienvenu</span>
                 <span>•</span>
                 <span>{post.meta.stringDate}</span>
               </p>

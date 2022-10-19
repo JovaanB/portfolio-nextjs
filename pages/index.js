@@ -3,7 +3,6 @@ import BlogsSection from "@components/Home/BlogsSection";
 import SkillSection from "@components/Home/SkillSection";
 // Page Components END------------
 
-import Image from "next/image";
 import Metadata from "@components/MetaData";
 import Contact from "@components/Contact";
 import {
@@ -44,14 +43,12 @@ export default function Home({ blogs, skills }) {
               variants={popUp}
               className="relative w-44 h-44 xs:w-52 xs:h-52 flex justify-center items-center rounded-full p-3 before:absolute before:inset-0 before:border-t-4 before:border-b-4 before:border-black before:dark:border-white before:rounded-full before:animate-photo-spin"
             >
-              <Image
+              <img
                 src={homeProfileImage}
                 className="rounded-full shadow filter saturate-0"
                 width={400}
                 height={400}
                 alt="cover Profile Image"
-                quality={75}
-                priority={true}
               />
             </motion.div>
 
@@ -61,13 +58,13 @@ export default function Home({ blogs, skills }) {
                   variants={opacityVariant}
                   className="text-5xl lg:text-6xl font-bold font-sarina"
                 >
-                  Jatin Sharma
+                  Jovan Bienvenu
                 </motion.h1>
                 <motion.p
                   variants={opacityVariant}
                   className="font-medium text-xs md:text-sm lg:text-lg text-gray-500"
                 >
-                  React Developer, Competitive Programmer
+                  React Developer
                 </motion.p>
               </div>
 
@@ -75,8 +72,8 @@ export default function Home({ blogs, skills }) {
                 variants={opacityVariant}
                 className=" text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center"
               >
-                I am currently perusing my Bachelor Degree in Computer Science.
-                I can code in Python, C, C++, etc.
+                I am currently perusing my Ingenious Degree in Computer Science.
+                I can code in Javascript, Reactjs, and other languages
               </motion.p>
             </div>
 
