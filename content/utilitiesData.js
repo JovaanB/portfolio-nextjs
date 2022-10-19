@@ -138,12 +138,6 @@ const utilities = {
         link: "https://www.grammarly.com/",
       },
       {
-        name: "Everything Search",
-        description: "For Quick searching in Windows",
-        Icon: FaSearch,
-        link: "https://www.voidtools.com/downloads/",
-      },
-      {
         name: "Raindrop.io",
         description: "Bookmark Manager",
         Icon: SVG.RainDrop,

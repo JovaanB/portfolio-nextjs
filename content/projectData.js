@@ -1,13 +1,13 @@
 module.exports = [
   {
     id: 1,
-    name: "ghost invasion game",
+    name: "Quotation",
     coverURL: "https://imgur.com/fVbFbqw.png",
     description:
-      "This the fun game build using PyGame library, in this there are ghost and you just have to kill them by just shooting.",
-    githubURL: "https://github.com/j471n/ghost-invasion-game-python",
+      "You can create quotes to propose to your customers in a fun and fast way!",
+    githubURL: "https://github.com/JovaanB/quotation",
     previewURL: "",
-    tools: ["python", "PyGame"],
+    tools: ["React", "Nextjs", "Node.js", "MongoDB"],
     pinned: true,
   },
 ];
