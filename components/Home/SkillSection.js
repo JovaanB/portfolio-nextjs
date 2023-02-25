@@ -7,12 +7,16 @@ import {
   SiJavascript,
   SiNextdotjs,
   SiTailwindcss,
-  SiPython,
   SiGit,
   SiMysql,
   SiFirebase,
   SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiMaterialui,
+  SiDocker,
 } from "react-icons/si";
+import { IoConstructOutline } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { useDarkMode } from "@context/darkModeContext";
 import * as WindowsAnimation from "@lib/windowsAnimation";
@@ -88,11 +92,23 @@ function chooseIcon(title) {
     case "git":
       Icon = SiGit;
       break;
-    case "git":
-      Icon = SiGit;
-      break;
     case "mysql":
       Icon = SiMysql;
+      break;
+    case "express.js":
+      Icon = SiExpress;
+      break;
+    case "mongodb":
+      Icon = SiMongodb;
+      break;
+    case "material ui":
+      Icon = SiMaterialui;
+      break;
+    case "docker":
+      Icon = SiDocker;
+      break;
+    case "algorithms":
+      Icon = IoConstructOutline;
       break;
     default:
       break;

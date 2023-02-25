@@ -1,7 +1,32 @@
 module.exports = [
   {
-    name: "HTML",
-    level: 100,
+    name: "Next.js",
+    level: 80,
+    pinned: true,
+  },
+  {
+    name: "React.js",
+    level: 80,
+    pinned: true,
+  },
+  {
+    name: "Node.js",
+    level: 50,
+    pinned: true,
+  },
+  {
+    name: "Express.js",
+    level: 50,
+    pinned: true,
+  },
+  {
+    name: "MongoDB",
+    level: 50,
+    pinned: true,
+  },
+  {
+    name: "Javascript",
+    level: 80,
     pinned: true,
   },
   {
@@ -10,8 +35,8 @@ module.exports = [
     pinned: true,
   },
   {
-    name: "Javascript",
-    level: 80,
+    name: "HTML",
+    level: 100,
     pinned: true,
   },
   {
@@ -25,18 +50,8 @@ module.exports = [
     pinned: false,
   },
   {
-    name: "React.js",
+    name: "Material UI",
     level: 80,
-    pinned: true,
-  },
-  {
-    name: "Next.js",
-    level: 80,
-    pinned: true,
-  },
-  {
-    name: "Node.js",
-    level: 50,
     pinned: true,
   },
   {
@@ -45,18 +60,13 @@ module.exports = [
     pinned: true,
   },
   {
-    name: "C Programming",
-    level: 80,
-    pinned: false,
-  },
-  {
-    name: "C++",
-    level: 60,
-    pinned: false,
-  },
-  {
     name: "MySQL",
     level: 85,
+    pinned: true,
+  },
+  {
+    name: "Docker",
+    level: 60,
     pinned: true,
   },
   {
@@ -65,13 +75,8 @@ module.exports = [
     pinned: true,
   },
   {
-    name: "Firebase",
+    name: "Algorithms",
     level: 60,
     pinned: true,
-  },
-  {
-    name: "Data Structure",
-    level: 60,
-    pinned: false,
   },
 ];

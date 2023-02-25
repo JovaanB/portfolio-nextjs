@@ -67,7 +67,7 @@ export default function Home({ blogs, skills }) {
                   variants={opacityVariant}
                   className="font-medium text-xs md:text-sm lg:text-lg text-gray-500"
                 >
-                  React Developer
+                  Software Engineer
                 </motion.p>
               </div>
 

@@ -4,12 +4,12 @@ import { BsPaypal } from "react-icons/bs";
 module.exports = [
   {
     name: "Buy Me a Coffee",
-    url: "https://buymeacoffee.com/j471n",
+    url: "https://www.buymeacoffee.com/jovanb",
     Icon: SiBuymeacoffee,
   },
   {
     name: "PayPal",
-    url: "https://paypal.me/j47in",
+    url: "https://paypal.me/jovaanc",
     Icon: BsPaypal,
   },
 ];
