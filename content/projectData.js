@@ -1,12 +1,12 @@
 module.exports = [
   {
     id: 1,
-    name: "Quotation",
-    coverURL: "https://imgur.com/fVbFbqw.png",
+    name: "Quotation.studio",
+    coverURL: "/img/quotationstudio.png",
     description:
-      "You can create quotes to propose to your customers in a fun and fast way!",
+      "Offer quizzes to your prospects to create quotations in an automated and intuitive way!",
     githubURL: "https://github.com/JovaanB/quotation",
-    previewURL: "",
+    previewURL: "https://quotation.studio",
     tools: ["React", "Nextjs", "Node.js", "MongoDB"],
     pinned: true,
   },
