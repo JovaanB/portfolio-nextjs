@@ -116,15 +116,10 @@ export default function BlogLayout({ post, children }) {
 
         <div className="flex items-center !w-full text-gray-700 dark:text-gray-300">
           <div className="flex items-center gap-2 w-full">
-            <div className="relative grid">
-              <img
-                alt="Jovan Bienvenu"
-                height={30}
-                width={30}
-                src={AvatarImage}
-                layout="fixed"
-                className="rounded-full"
-              />
+            <div className="avatar placeholder">
+              <div className="bg-neutral-focus text-neutral-content rounded-full w-8">
+                <span className="text-xs">JB</span>
+              </div>
             </div>
             <div className="flex flex-col sm:flex-row sm:justify-between w-full">
               <p className="text-sm  flex items-center gap-2 font-medium !my-0">
@@ -179,7 +174,7 @@ export default function BlogLayout({ post, children }) {
         >
           {children}
         </AnimatedDiv>
-        <Newsletter />
+        {/* <Newsletter /> */}
         <div className="w-full flex flex-col items-center gap-4 my-10 print:hidden">
           <h3
             style={{ margin: "0" }}

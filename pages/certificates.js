@@ -51,16 +51,18 @@ export default function Certificates() {
                 </div>
                 <div className="flex items-center gap-5 text-sm justify-between">
                   <p className="text-gray-500 text-sm">{cer.issuedDate}</p>
-                  <Link href={cer.urls.pdfURL} passHref>
-                    <motion.a
-                      href={cer.urls.pdfURL}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-4 py-1 rounded-md bg-neutral-200 dark:bg-black shadow dark:text-white transform duration-200 font-medium  active:scale-90 lg:hover:bg-black lg:hover:text-white dark:lg:hover:bg-white dark:lg:hover:text-black"
-                    >
-                      View
-                    </motion.a>
-                  </Link>
+                  {cer.urls.length > 0 && (
+                    <Link href={cer.urls.pdfURL} passHref>
+                      <motion.a
+                        href={cer.urls.pdfURL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-1 rounded-md bg-neutral-200 dark:bg-black shadow dark:text-white transform duration-200 font-medium  active:scale-90 lg:hover:bg-black lg:hover:text-white dark:lg:hover:bg-white dark:lg:hover:text-black"
+                      >
+                        View
+                      </motion.a>
+                    </Link>
+                  )}
                 </div>
               </AnimatedDiv>
             );
