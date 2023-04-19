@@ -18,9 +18,6 @@ export default function TopNavbar() {
   const router = useRouter();
   const navRef = useRef(null);
 
-  /*  Using to control animation as I'll show the name to the mobile navbar when you scroll a bit
-   * demo: https://i.imgur.com/5LKI5DY.gif
-   */
   const control = useAnimation();
   const [navOpen, setNavOpen] = useState(false);
   const { isDarkMode, changeDarkMode } = useDarkMode();
@@ -91,7 +88,7 @@ export default function TopNavbar() {
             variants={popUp}
             className="relative hidden sm:inline-flex mr-3"
           >
-            <h1 className="font-sarina text-xl">JS</h1>
+            <h1 className="font-sarina text-xl">JB</h1>
           </motion.a>
           <motion.p
             initial="hidden"
