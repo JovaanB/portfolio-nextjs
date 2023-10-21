@@ -15,6 +15,8 @@ import {
   SiMongodb,
   SiMaterialui,
   SiDocker,
+  SiTypescript,
+  SiDotnet,
 } from "react-icons/si";
 import { IoConstructOutline } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
@@ -68,6 +70,9 @@ function chooseIcon(title) {
     case "node.js":
       Icon = SiNodedotjs;
       break;
+    case "typescript":
+      Icon = SiTypescript;
+      break;
     case "javascript":
       Icon = SiJavascript;
       break;
@@ -85,6 +90,9 @@ function chooseIcon(title) {
       break;
     case "tailwind css":
       Icon = SiTailwindcss;
+      break;
+    case ".net":
+      Icon = SiDotnet;
       break;
     case "firebase":
       Icon = SiFirebase;

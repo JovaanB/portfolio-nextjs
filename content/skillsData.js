@@ -1,11 +1,16 @@
 module.exports = [
   {
-    name: "Next.js",
+    name: "Typescript",
     level: 80,
     pinned: true,
   },
   {
     name: "React.js",
+    level: 80,
+    pinned: true,
+  },
+  {
+    name: "Next.js",
     level: 80,
     pinned: true,
   },
@@ -16,6 +21,11 @@ module.exports = [
   },
   {
     name: "Express.js",
+    level: 50,
+    pinned: true,
+  },
+  {
+    name: ".NET",
     level: 50,
     pinned: true,
   },

@@ -75,9 +75,9 @@ export default function Home({ blogs, skills }) {
                 variants={opacityVariant}
                 className=" text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center"
               >
-                I am currently in my last year of study to obtain my bachelor's
-                degree in computer science. I code in Javascript and Reactjs, I
-                love to develop beautiful and functional interfaces
+                I'm software engineer at AXA France. I develop in Typescript, Reactjs and .NET 
+                and I love developing beautiful and functional software that brings a lot of value 
+                to users.
               </motion.p>
             </div>
 
